@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria El Poyo</title>
+    <body style="background-color:pink;"></body>
+</head>
+<body>
+
+    <img src="Poyo.png" width="200" height="200">
+    <h2>Arma tu pastel</h2>
+    <h3>Tenemos los sabores de:</h3>
+    <table>
+        <tr>
+            <th>Sabor</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Chocolate</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Fresa</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Vainilla</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Choco-fresa</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Choco-vainilla</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Vaini-fresa</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Trisabor</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Receta secreta</td>
+            <td>100</td>
+        </tr>
+    </table>
+    <h3>Que se pueden adornar con:</h3>
+    <table>
+        <tr>
+            <th>Adorno</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Crema pastelera</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Fresas</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Rayadura de Chocolate</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Lunetas</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Fondan</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Figura de un personaje</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>Texto</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Nada</td>
+            <td>te regalamos 10 pesos</td>
+        </tr>
+    </table>
+    <form action="/accion.js" id="form1" method="post"></form>
+    <h2>Empieza tu orden</h2>
+    <label for="pasteles">De que sabores</label>
+    <select id="pasteles" name="pasteles">
+        <option value="Chocolate">Chocolate</option>
+        <option value="Fresa">Fresa</option>
+        <option value="Vainilla">Vainilla</option>
+        <option value="Choco-fresa">Choco-fresa</option>
+        <option value="Choco-vainilla">Choco-vainilla</option>
+        <option value="Vaini-fresa">Vaini-fresa</option>
+        <option value="Trisabor">Trisabor</option>
+        <option value="Receta Secreta">Receta Secreta</option>
+    </select>
+    <h3>Elige los adornos</h3>
+    <input type="checkbox" id="adorno1" name="adorno1" value="Crema">
+    <label for="adorno1">Crema pastelera</label><br>
+    <input type="checkbox" id="adorno2" name="adorno2" value="Fresas">
+    <label for="adorno2">Fresas</label><br>
+    <input type="checkbox" id="adorno3" name="adorno3" value="Rayadura">
+    <label for="adorno3">Rayadura de Chocolate</label><br>
+    <input type="checkbox" id="adorno4" name="adorno4" value="Lunetas">
+    <label for="adorno2">Lunetas</label><br>
+    <input type="checkbox" id="adorno5" name="adorno5" value="Fondan">
+    <label for="adorno2">Fondan</label><br>
+    <input type="checkbox" id="adorno6" name="adorno6" value="Figura">
+    <label for="adorno2">Figura de tu personaje</label><br>
+    <input type="checkbox" id="adorno7" name="adorno7" value="Texto">
+    <label for="adorno2">Texto</label><br>
+    <input type="checkbox" id="adorno8" name="adorno8" value="Nada">
+    <label for="adorno2">Nada</label><br>    
+
+    <h2>Tu pedido esta casi listo, llena los datos para seguir con tu compra</h2>
+
+    
+        <label for="nombre">Nombre completo</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="correo1">Correo</label><br>
+        <input type="email" id="correo1" name="correo1"><br><br>
+
+        <label for="tel1">Teléfono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+
+        <label for="descripcion">Describe exactamente tu pastel</label><br>
+        <input type="text" id="descripcion" name="descripcion"><br><br>
+
+        <label for="personaje1">En caso de querer un personaje pon la imagen del que quieras</label><br>
+        <input type="file" id="personaje1" name="personaje1" multiple><br><br>
+
+        <input type="submit" value="Enviar">
+        
+    </form>
+
+    <h3>Puedes recoger tu pedido en: <br> Avenida División del Norte, Dr José María Vertiz, Sta Cruz Atoyac, 03310 Ciudad de México</h3>
+    <h3>Abierto de 9:00 am a 8:00 pm</h3>
+    <h3>Si tienes dudas sobre tu pedido puedes llamar o mandar un whatsapp al número <br> 5567162345</h3>
+    
+
+</body>
+
+
+
+
+
+</html>
